@@ -1,4 +1,4 @@
-public enum LEBError: Swift.Error {
+public enum LEBError: Swift.Error, Equatable {
     case overflow
     case insufficientBytes
 }
